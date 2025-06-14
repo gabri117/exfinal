@@ -20,8 +20,7 @@ class DBHelper {
           CREATE TABLE tasks(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             titulo TEXT,
-            descripcion TEXT,
-            fechaHora TEXT
+            descripcion TEXT
           )
         ''');
       },
